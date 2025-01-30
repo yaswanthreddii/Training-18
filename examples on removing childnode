@@ -1,0 +1,132 @@
+MULTIPLE ELEMENTS:
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Multiple Elements Example</title>
+    <style>
+        .item {
+            font-size: 20px;
+            margin: 10px;
+        }
+        .my-class {
+            color: blue;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="my-class item">BUS-1</div>
+    <div class="my-class item">BUS-2</div>
+    <div class="my-class item">BUS-3</div>
+
+    <button>Hire Me</button>
+    <button>Hire Me</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+--->>>Outcome:
+(1) All elements with the class my-class will have their color changed to red.
+(2) A list of numbers will be printed to the console.
+(3) Each button, when clicked, will show an alert indicating which button was clicked.
+(4) Information about each person in the people array will be logged in the console.
+
+REMOVING CHILDNODE:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <h1>Removing childNode</h1>
+        <h1>I am in hyderabad</h1>
+        <ul>
+            <li>sai</li>
+            <li>king</li>
+            <li>Ramesh</li>
+        </ul>
+        <script>
+            const ul=document.querySelector("ul")
+            const list=document.querySelectorAll("li")
+            console.log(ul)
+            console.log(list)
+    
+            for(const l of list){
+                console.log(removing:${list.textContent})
+                ul.removeChild(list)
+                console.log(list)
+            }
+    </script>
+</body>
+</html>
+
+EXAMPLE-2"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Remove Child Nodes Example</title>
+    <style>
+        .container {
+            padding: 20px;
+            border: 2px solid #333;
+            margin: 20px;
+        }
+        .item {
+            margin: 10px;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </div>
+
+    <button id="remove-items-btn">Remove All Items</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+    </script>
+            
+    </script>
+</body>
+</html>
